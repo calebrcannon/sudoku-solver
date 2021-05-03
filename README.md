@@ -11,3 +11,5 @@ a comment to indicate where:
 The code reads through the puzzle, and attempts to find places where there is only one possible number to enter into an empty space. If the puzzle hasn't been changed since looking
 through the puzzle for a space with only one possible answer, the code will move on to searching for naked pairs. Naked pairs are two sets of empty spaces in a row, column, or 
 subgrid that have only two identical possible numbers. Once a naked pair is found, those two possbile numbers are removed from the rest of the row, column, or subgrid.  
+
+Note that the program does not print out the solved puzzles, only the number of puzzles solved, unless the program is unable to solve the puzzle, in which case it will print it out solved. 
